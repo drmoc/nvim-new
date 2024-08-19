@@ -1,0 +1,13 @@
+{
+    "diagnostics.globals": [
+        "vim",
+        "transparent_background",
+        "colorscheme",
+        "local",
+        "lua",
+        "export"
+    ],
+    "diagnostics.disable": [
+        "undefined-doc-name"
+    ]
+}
