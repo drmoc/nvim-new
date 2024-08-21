@@ -6,13 +6,13 @@ return {
     local lazy_status = require("lazy.status") -- to configure lazy pending updates count
 
     local colors = {
-      blue = "#65D1FF",
-      green = "#3EFFDC",
-      violet = "#FF61EF",
-      yellow = "#FFDA7B",
-      red = "#FF4A4A",
-      fg = "#c3ccdc",
-      bg = "#112638",
+      blue = "#7aa2f7",
+      green = "#73daca",
+      violet = "#bb9af7",
+      yellow = "#e0af68",
+      red = "#f7768e",
+      fg = "#c0caf5",
+      bg = "#24273a",
       inactive_bg = "#2c3043",
     }
 

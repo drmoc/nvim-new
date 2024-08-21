@@ -5,7 +5,8 @@
         "colorscheme",
         "local",
         "lua",
-        "export"
+        "export",
+        "use"
     ],
     "diagnostics.disable": [
         "undefined-doc-name"
