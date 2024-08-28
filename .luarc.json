@@ -6,9 +6,12 @@
         "local",
         "lua",
         "export",
-        "use"
+        "use",
+        "modes"
     ],
     "diagnostics.disable": [
-        "undefined-doc-name"
+        "undefined-doc-name",
+        "redundant-value",
+        "unused-local"
     ]
 }
