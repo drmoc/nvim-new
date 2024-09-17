@@ -7,11 +7,14 @@
         "lua",
         "export",
         "use",
-        "modes"
+        "modes",
+        "keys",
+        "print_char_info"
     ],
     "diagnostics.disable": [
         "undefined-doc-name",
         "redundant-value",
-        "unused-local"
+        "unused-local",
+        "undefined-global"
     ]
 }

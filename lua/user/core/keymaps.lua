@@ -38,7 +38,7 @@ keymap.set("n", "<leader>bp", ":bp<CR>", { desc = "Go to previus buffer" }) --  
 
 -- save, quit and source
 keymap.set("n", "<leader>w", ":wa<CR>", { desc = "Save current document" }) -- save current document
-keymap.set("n", "<leader>q", ":q!<CR>", { desc = "Quit without salving" }) --  quit without saving
+keymap.set("n", "<leader>q", ":q<CR>", { desc = "Quit without salving" }) --  quit without saving
 keymap.set("n", "<leader>wq", ":wqa<CR>", { desc = "Save and quit all the windows" }) --  save and quit all the windows
 keymap.set("n", "<leader>re", ":e<CR>", { desc = "Reload the file" }) --  save and quit all the windows
 keymap.set("n", "<leader>so", ":source %<CR>", { desc = "Source current file" }) -- source current file
@@ -57,3 +57,7 @@ keymap.set("n", "<leader>cr", ":e ~/medicina/cronograma.norg<CR>", { desc = "Ope
 -- Configurações para Tabout
 keymap.set("i", "<Tab>", "<Plug>(Tabout)", { silent = true })
 keymap.set("i", "<S-Tab>", "<Plug>(TaboutBackward)", { silent = true })
+
+-- AutoWrite
+keymap.set('n', '<space>tw', ":ToggleAutowrite<CR>")
+
