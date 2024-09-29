@@ -25,12 +25,12 @@ require("lazy").setup({
     notify = false,
   },
 })
-vim.cmd("highlight @neorg.headings.1.prefix guifg=#9d7cd8") -- #AE7AF8 --OK
-vim.cmd("highlight @neorg.headings.1.title cterm=bold gui=bold guifg=#9d7cd8") --OK
-vim.cmd("highlight @neorg.headings.2.prefix guifg=#7aa2f7") --#4DBBDC--OK
-vim.cmd("highlight @neorg.headings.2.title cterm=bold gui=bold guifg=#7aa2f7")
-vim.cmd("highlight @neorg.headings.3.prefix guifg=#F47090")
-vim.cmd("highlight @neorg.headings.3.title cterm=bold gui=bold guifg=#F47090")
+vim.cmd("highlight @neorg.headings.1.prefix guifg=#B989F4")
+vim.cmd("highlight @neorg.headings.1.title cterm=bold gui=bold guifg=#B989F4")
+vim.cmd("highlight @neorg.headings.2.prefix guifg=#789AF1") -- #7aa2f7
+vim.cmd("highlight @neorg.headings.2.title cterm=bold gui=bold guifg=#789AF1")
+vim.cmd("highlight @neorg.headings.3.prefix guifg=#E67084") -- #F47090
+vim.cmd("highlight @neorg.headings.3.title cterm=bold gui=bold guifg=#E67084")
 vim.cmd("highlight @neorg.headings.4.prefix guifg=#a6e3a2")
 vim.cmd("highlight @neorg.headings.4.title guifg=#a6e3a2")
 vim.cmd("highlight @neorg.headings.6.prefix guifg=#00ea7a")
@@ -46,39 +46,40 @@ vim.cmd("highlight @neorg.markup.inline_math guifg=#ff6c6b")
 vim.cmd("highlight @neorg.markup.superscript guifg=#fffe7b")
 vim.cmd("highlight @neorg.lists.unordered.prefix guifg=#f8f8f2")
 vim.cmd("highlight @neorg.lists.ordered.prefix guifg=#f8f8f2")
-vim.cmd("highlight @neorg.quotes.1.prefix guifg=#c0caf5")
-vim.cmd("highlight @neorg.quotes.1.content guifg=#c0caf5")
-vim.cmd("highlight @neorg.quotes.2.prefix guifg=#c0caf5")
-vim.cmd("highlight @neorg.quotes.2.content guifg=#c0caf5")
-vim.cmd("highlight @neorg.quotes.3.prefix guifg=#c0caf5")
-vim.cmd("highlight @neorg.quotes.3.content guifg=#c0caf5")
-vim.cmd("highlight @neorg.quotes.4.prefix guifg=#c0caf5")
-vim.cmd("highlight @neorg.quotes.4.content guifg=#c0caf5")
-vim.cmd("highlight @neorg.quotes.5.prefix guifg=#c0caf5")
-vim.cmd("highlight @neorg.quotes.5.content guifg=#c0caf5") -- #9399B3
+vim.cmd("highlight @neorg.quotes.1.prefix guifg=#a5adcb")
+vim.cmd("highlight @neorg.quotes.1.content guifg=#a5adcb")
+vim.cmd("highlight @neorg.quotes.2.prefix guifg=#a5adcb")
+vim.cmd("highlight @neorg.quotes.2.content guifg=#a5adcb")
+vim.cmd("highlight @neorg.quotes.3.prefix guifg=#a5adcb")
+vim.cmd("highlight @neorg.quotes.3.content guifg=#a5adcb")
+vim.cmd("highlight @neorg.quotes.4.prefix guifg=#a5adcb")
+vim.cmd("highlight @neorg.quotes.4.content guifg=#a5adcb")
+vim.cmd("highlight @neorg.quotes.5.prefix guifg=#a5adcb")
+vim.cmd("highlight @neorg.quotes.5.content guifg=#a5adcb")
 
--- #1f2335
--- #24283b
--- #292e42
--- #3b4261
--- #414868
--- #545c7e
--- #565f89
--- #737aa2
--- #a9b1d6
--- #c0caf5
--- #394b70
--- #3d59a1
--- #7aa2f7
--- #7dcfff
--- #b4f9f8
--- #9d7cd8
--- #bb9af7
--- #ff9e64
--- #ffc777
--- #c3e88d
--- #4fd6be
--- #41a6b5
--- #ff757f
--- #c53b53
--- #ff007c
+--  Rosewater #f4dbd6 #F0D2CC
+--  Flamingo  #f0c6c6 #EBB8BA
+--  Pink      #f5bde6 #F1ABE0
+--  Mauve     #c6a0f6 #B989F4
+--  Red       #ed8796 #E67084
+--  Marron    #ee99a0 #E7848F
+--  Peach     #f5a97f #F1986C
+--  Yellow    #eed49f #E9CB8E
+--  Green     #a6da95 #97D583
+--  Teal      #8bd5ca #7BCDBE
+--  Sky       #91d7e3 #81CFDC
+--  Sapphire  #7dc4e4 #6CB7DE
+--  Blue      #8aadf4 #789AF1
+--  Lavender  #b7bdf8 #A8ADF6
+--  Text      #cad3f5 #B9C2F2
+--  Subtext 1 #b8c0e0
+--  Subtext 0 #a5adcb
+--  Overlay 2 #939ab7
+--  Overlay 1 #8087a2
+--  Overlay 0 #6e738d
+--  Surface 2 #5b6078
+--  Surface 1 #494d64
+--  Surface 0 #363a4f
+--  Base      #24273a
+--  Mantle    #1e2030
+--  Crust     #181926
