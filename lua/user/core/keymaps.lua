@@ -60,5 +60,3 @@ keymap.set("i", "<S-Tab>", "<Plug>(TaboutBackward)", { silent = true })
 
 -- AutoWrite
 keymap.set("n", "<space>tw", ":ToggleAutowrite<CR>")
-
-keymap.set("n", "<leader>k", '<cmd>lua require("kubectl").toggle()<cr>', { noremap = true, silent = true })
