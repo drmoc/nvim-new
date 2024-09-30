@@ -57,6 +57,8 @@ vim.cmd("highlight @neorg.quotes.4.content guifg=#a5adcb")
 vim.cmd("highlight @neorg.quotes.5.prefix guifg=#a5adcb")
 vim.cmd("highlight @neorg.quotes.5.content guifg=#a5adcb")
 
+vim.o.sessionoptions = "blank,buffers,curdir,folds,help,tabpages,winsize,winpos,terminal,localoptions"
+
 --  Rosewater #f4dbd6 #F0D2CC
 --  Flamingo  #f0c6c6 #EBB8BA
 --  Pink      #f5bde6 #F1ABE0
