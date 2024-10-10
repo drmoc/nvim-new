@@ -45,15 +45,20 @@ return {
         { name = "luasnip" }, -- snippets
         { name = "buffer" }, -- text within current buffer
         { name = "path" }, -- file system paths
+        { name = "supermaven" },
       }),
       -- configure lspkind for vs-code like pictograms in completion menu
       formatting = {
         format = lspkind.cmp_format({
+          mode = "symbol",
+          max_width = 50,
+          symbol_map = { Supermaven = "" },
           maxwidth = 50,
           ellipsis_char = "...",
         }),
       },
-      kind_icons = {
+      -- kind_icons = {
+      symbol_map = {
         Text = "󰉿",
         Method = "󰊕",
         Function = "󰊕",
@@ -79,6 +84,7 @@ return {
         Event = "󱐋",
         Operator = "󰪚",
         TypeParameter = "󰬛",
+        Supermaven = "",
       },
       highlight = {
         ns = vim.api.nvim_create_namespace("blink_cmp"),
@@ -116,4 +122,5 @@ return {
       nerd_font_variant = "normal",
     })
   end,
+  vim.api.nvim_set_hl(0, "CmpItemKindSupermaven", { fg = "#6CC644" }),
 }

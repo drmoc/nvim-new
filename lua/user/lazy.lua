@@ -75,7 +75,7 @@ vim.o.sessionoptions = "blank,buffers,curdir,folds,help,tabpages,winsize,winpos,
 --  Lavender  #b7bdf8 #A8ADF6
 --  Text      #cad3f5 #B9C2F2
 --  Subtext 1 #b8c0e0
---  Subtext 0 #a5adcb
+-- Subtext 0 #a5adcb
 --  Overlay 2 #939ab7
 --  Overlay 1 #8087a2
 --  Overlay 0 #6e738d
